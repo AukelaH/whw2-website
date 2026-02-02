@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Aukela Horton - Feedback Form</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Feedback Form</h1>
+    <p>Form with dropdown, radio buttons, comment box, and buttons</p>
+  </header>
+
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="hobbies.html">Hobbies</a>
+    <a href="table.html">Table</a>
+    <a href="form.html">Feedback Form</a>
+    <a href="video.html">Video</a>
+  </nav>
+
+  <main>
+    <form action="#" method="post">
+      <label for="favoritePage">Which page did you like most?</label><br>
+      <select id="favoritePage" name="favoritePage">
+        <option value="home">Home</option>
+        <option value="hobbies">Hobbies</option>
+        <option value="table">Table</option>
+        <option value="video">Video</option>
+      </select>
+
+      <fieldset>
+        <legend>How would you rate the website?</legend>
+        <label><input type="radio" name="rating" value="excellent"> Excellent</label><br>
+        <label><input type="radio" name="rating" value="good"> Good</label><br>
+        <label><input type="radio" name="rating" value="okay"> Okay</label><br>
+        <label><input type="radio" name="rating" value="needswork"> Needs Work</label>
+      </fieldset>
+
+      <label for="comments">Comments:</label><br>
+      <textarea id="comments" name="comments" placeholder="Type your feedback here..."></textarea>
+
+      <br><br>
+      <button type="submit">Submit</button>
+      <button type="reset">Reset</button>
+    </form>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 Aukela Horton</p>
+  </footer>
+</body>
+</html>
